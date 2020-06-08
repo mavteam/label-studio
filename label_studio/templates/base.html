@@ -34,8 +34,9 @@
 <!-- Header -->
 <div id="header">
   <a id="logo" href="welcome">
-    <img src="static/images/ls_logo.png" alt="label studio logo" class="img-logo">
-    <span class="img-text">{{ config['title'] }}</span>
+<!--     <img src="static/images/ls_logo.png" alt="label studio logo" class="img-logo"> -->
+<!--     <span class="img-text">{{ config['title'] }}</span> -->
+         <span class="img-text">Active {{ config['title'] }}</span>
   </a>
   <ul id="nav">
   &nbsp;
@@ -57,7 +58,7 @@
     <span class="delim">|</span>
 
     <a href="setup" class="{% if url_for(request.endpoint) == '/setup' %}active{% endif %}">Setup</a>
-    <span class="delim">|</span>
+<!--     <span class="delim">|</span>
 
     <a href="https://labelstud.io/guide/" target="_blank">Docs</a>
     <span class="delim">|</span>
@@ -67,7 +68,7 @@
 
     <a href="https://join.slack.com/t/label-studio/shared_invite/zt-cr8b7ygm-6L45z7biEBw4HXa5A2b5pw"
        data-tooltip="If you have any troubles or suggestion just report us to Slack" data-position="bottom right"
-       target="_blank"><img src="static/images/slack.png" height="22"/></a>
+       target="_blank"><img src="static/images/slack.png" height="22"/></a> -->
 
   </ul>
 </div>
